@@ -2,7 +2,7 @@
    "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head>
-     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
      <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	 <title>Fantasy eSports Game</title>
   </head>
@@ -15,14 +15,14 @@
 	 <li class="nav-tabs-item" role="presentation"><a href="about_us.jsp">Quem somos</a></li>
      <li class="nav-tabs-item" role="presentation"><a href="contact.jsp">Contato</a></li>
 	 <li role="presentation" class="dropdown nav-tabs-item">
-     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-       Dropdown <span class="caret"></span>
-     </a>
-    <ul class="dropdown-menu">
-      <li role="presentation" class="active"><a href="#">Sub-Item 1</a></li>
-     <li role="presentation"><a href="#">Sub-Item 2</a></li>
-    </ul>
-  </li>
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        Dropdown <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+       <li role="presentation" class="active"><a href="#">Sub-Item 1</a></li>
+       <li role="presentation"><a href="#">Sub-Item 2</a></li>
+      </ul>
+     </li>
     </ul>
 	<br><br><br><br>
 	<div class="login-box">
@@ -48,41 +48,49 @@
 		  <br><br>
 		</form>
 	</div>
+	<br>
 	<hr>
 	<div class="row">
+		<h2 style="padding-left:20%;">Aprenda o jogo em apenas três passos:</h2>
+		<br>
 		<div class="col-md-3">
 			<div class="thumbnail">
-				<img src="..." alt="...">
+				<h3 align="center">Você é quem manda!</h3>
+				<p align="center" style="padding-top:5px;"><img src="resources/img/img_example.svg" alt="..."></p>
 				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				<!-- Cansou de ver os times mal montado? Você tem certeza que faria melhor? Você está no lugar certo.  -->
+					<p>Você acabou de criar um time novo que irá disputar a principal divisão. Você terá um orçamento e poderá montar
+					um time competitivo da maneira que achar melhor.</p>
+					<p align="right"><a href="#" class="btn btn-link" role="button">Sobre >></a></p>
 				</div>
 			</div>
 		</div>
 		<div class=" col-md-3">
 			<div class="thumbnail">
-				<img src="..." alt="...">
+			    <h3 align="center">Todos os jogadores no mercado</h3>
+				<p align="center" style="padding-top:5px;"><img src="resources/img/img_example.svg" alt="..."></p>
 				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<p>Para ter um time, você precisará de jogadores. Você terá todos os jogadores que irão disputar o campeonato
+					na vida real. Assim você terá total liberdade para escolher os seus jogadores preferidos ou de acordo com sua
+					estratégia.</p>
+					<p align="right"><a href="#" class="btn btn-link" role="button">Sobre >></a></p>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="thumbnail">
-				<img src="..." alt="...">
+				<h3 align="center">Torça para os seus jogadores!</h3>
+				<p align="center" style="padding-top:5px;"><img src="resources/img/img_example.svg" alt="..."></p>
 				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<p>Depois do seu time escalado e pronto para a glória, você torcerá para cada jogador do seu time tenha um bom
+					desempenho para que reflita no jogo. Cada boa jogada ou péssima jogada reflitirá no fantasy game!</p>
+					<p align="right"><a href="#" class="btn btn-primary" role="button">Cadastre-se agora</a></p>
 				</div>
 			</div>
 		</div>
 	</div>	
   </body>
   <footer class="page-footer">
-    <h6 align="center">© 2016 Derick Systems</h6>
+    <h6 align="center" style="padding-top:10px;">2016 Derick Systems Co.</h6>
   </footer>
 </html>

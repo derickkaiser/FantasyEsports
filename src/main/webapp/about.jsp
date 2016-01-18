@@ -23,31 +23,33 @@
      <li role="presentation"><a href="#">Sub-Item 2</a></li>
     </ul>
   </li>
-    </ul>
-	<br><br><br><br>
-	<div class="login-box">
-		<form class="form-inline" align="center">	
-		  <h3>Bem-vindo ao Fantasy eSports Game!</h3>
-		  <br>
-		  <div class="form-group">
-			<label for="exampleInputName2">Login: &nbsp;&nbsp;</label>
-			<input type="text" class="form-control" id="exampleInputName2" placeholder="Digite seu login" 
-			onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu login'">
-		  </div>
-		  <br>
-		  <br>
-		  <div class="form-group">
-			<label for="exampleInputEmail2">Senha: &nbsp;&nbsp;</label>
-			<input type="password" class="form-control" id="exampleInputEmail2" placeholder="Digite sua senha" 
-			onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite sua senha'">
-		  </div>
-		  <br>
-		  <button type="button" class="btn btn-link">Esqueceu a senha?</button>
-		  <br>
-		  <button type="submit" class="btn btn-primary">Entrar</button>
-		  <br><br>
-		</form>
+  </ul>
+  <br><br>
+  <div class="container">
+    <h2 align="center">Sobre o Fantasy eSports Game</h2>
+	<br>
+	<div class="text-about" align="center">
+	   <img src="resources/img/img_example.svg" style="float:left;padding-right:10px;">
+	   <p>Donec aliquam magna sed justo posuere, vel ultrices erat ultrices. Ut tempus aliquam egestas. Proin mattis diam nec urna porta ullamcorper. Cras felis libero, ullamcorper vel 
+	   ullamcorper ut, lacinia placerat dui. Mauris id nisl urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam metus vitae velit lacinia, non mattis mauris 
+	   vehicula. Sed vitae interdum diam. Sed placerat erat a libero congue, et dictum velit aliquet. Mauris eu faucibus enim. Donec porttitor consequat massa, et laoreet leo 
+	   scelerisque sed. Vivamus ut massa bibendum, volutpat mi at, maximus ipsum. Donec aliquam arcu urna, vel ultricies enim laoreet quis. Suspendisse nec arcu tincidunt, varius 
+	   velit at, porttitor tellus. Nam vel quam id dolor scelerisque accumsan sit amet vitae orci. Duis sed maximus nunc, vitae commodo lorem.</p>
+	   <hr style="border-width:1.5px; border-color:#000"/>
 	</div>
-	<h6 align="center">© 2016 Derick Systems</h6>
+	<br><br><br><br><br><br><br><br>
+	<div class="text-about" align="center">
+	   <img src="resources/img/img_example.svg" style="float:left;padding-right:10px;">
+	   <p style="vertical-align:middle;">Nam gravida nisi quis odio volutpat eleifend. Proin dapibus ligula sit amet viverra tempus. Proin suscipit posuere pretium. Cras vulputate 
+	   sapien sit amet finibus efficitur. Fusce quis finibus lacus. Suspendisse vitae dictum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt sit amet 
+	   ante at volutpat. Nulla arcu mauris, fermentum ut quam id, ultrices mollis nunc. Donec sodales massa purus, id blandit tellus fringilla eget. Ut ac lacus et dolor hendrerit 
+	   interdum elementum non neque. Nullam scelerisque luctus erat id congue. Quisque egestas eros est, vitae gravida lacus pharetra quis. Pellentesque sagittis ultrices diam eu 
+	   aliquet. Quisque in odio et justo facilisis sagittis. Mauris interdum viverra finibus.</p>
+	   <hr style="border-width:1.5px; border-color:#000"/>
+	</div>
+  </div>
   </body>
+  <footer class="page-footer">
+    <h6 align="center" style="padding-top:10px;">2016 Derick Systems Co.</h6>
+  </footer>
 </html>
